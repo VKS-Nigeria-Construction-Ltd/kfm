@@ -1,0 +1,29 @@
+.top_bar {
+  height: 5.5rem;
+  background-image: linear-gradient(90deg, #c3002f 50%, #dcddde 50%);
+
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.mainNav {
+  margin-top: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  
+  @media (min-width: 768px) {
+    margin-top: -2.75rem;
+  }
+
+  .navbar-main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+  }
+}
+
+.main-menu .nav-link {
+  font-weight: 500;
+}

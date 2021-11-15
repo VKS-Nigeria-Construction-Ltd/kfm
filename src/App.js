@@ -1,9 +1,10 @@
-import './App.css';
+import './App.scss';
+import MainNav from './components/mainNav.component';
 
 function App() {
   return (
     <div>
-      <h1>Hello KFMs</h1>
+      <MainNav />
     </div>
   );
 }
