@@ -137,6 +137,12 @@
 }
 
 .about-btm {
+  margin-bottom: -20rem;
+  
+  .col-12 {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
 
   &__item {
     background-color: #fff;
@@ -164,4 +170,32 @@
     }
 
   }
+}
+
+.health-section {
+  line-height: 2rem;
+  background: url('/images/plant_bg.jpg') no-repeat bottom left;
+  background-size: cover;
+
+  &__red {
+    background-color: #c3002f;
+    padding: 2rem 7rem 2rem 1.5rem;
+  }
+
+  &__dark {
+    background-color: #222d35;
+    padding: 4rem 8rem 2.5rem 1.5rem;
+  }
+
+  .main-head, .primary-head, .sub-head {
+    color: #fff;
+  }
+
+  p {
+    color: #fafafa;
+  }
+}
+
+.extra_space {
+  height: 20rem;
 }
