@@ -1,13 +1,12 @@
 import './App.scss';
-import MainNav from './components/mainNav.component';
-import Slider from './components/slider.component';
+import { Mainsection } from './components/mainSection.component';
+import { HeaderContainer } from './container/header.container';
 
 function App() {
   return (
     <div>
-      <MainNav />
-      {/* TODO: Fix slide text on mobile */}
-      <Slider />
+      <HeaderContainer />
+      <Mainsection />
     </div>
   );
 }

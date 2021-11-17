@@ -8,14 +8,27 @@
 
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   line-height: 1.4;
+  color: #555c63 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.kfm_red {
+  color: #c3002f;
+}
+
+h2 {
+  font-family: "Rubik",Arial,Helvetica,sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+  color: #222d35;
 }

@@ -1,8 +1,11 @@
 .top_bar {
   height: 5.5rem;
-  background-image: linear-gradient(90deg, #c3002f 50%, #dcddde 50%);
-
+  background-image: linear-gradient(90deg, #c3002f 60%, #f3f3f3 40%);
   display: none;
+
+  &.sm {
+    height: 2rem;
+  }
 
   @media (min-width: 768px) {
     display: block;
@@ -28,6 +31,10 @@
 
 .main-menu .nav-link {
   font-weight: 500;
+
+  &:hover {
+    color: #c3002f !important;
+  }
 }
 
 .home-slider {
@@ -40,4 +47,32 @@
 
 .carousel-caption {
   bottom: 30%;
+}
+
+.main-section {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+
+  .main-head {
+    font-size: 1.35rem;
+    line-height: .85rem;
+  }
+
+  .sub-head {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .primary-head {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .col {
+    padding: 2rem 3rem;
+
+    &.kfm_preview {
+      padding: 0;
+    }
+  }
 }
