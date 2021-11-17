@@ -55,7 +55,7 @@
 
   .main-head {
     font-size: 1.35rem;
-    line-height: .85rem;
+    line-height: 1.5rem;
   }
 
   .sub-head {
@@ -69,7 +69,11 @@
   }
 
   .col {
-    padding: 2rem 2.5rem;
+    padding: 1rem;
+    
+    @media (min-width: 768px) {
+      padding: 2rem 2.5rem;
+    }
 
     &.kfm_preview {
       width: 100%;
@@ -80,11 +84,19 @@
     }
 
     &.right_border {
-      border-right: 1px solid #eaeaea;
+      border-right: 0;
+
+      @media (min-width: 768px) {
+        border-right: 1px solid #eaeaea !important;
+      }
     }
 
     &.bottom_border {
-      border-bottom: 1px solid #eaeaea;
+      border-right: 0;
+
+      @media (min-width: 768px) {
+        border-bottom: 1px solid #eaeaea;
+      }
     }
   }
 }
