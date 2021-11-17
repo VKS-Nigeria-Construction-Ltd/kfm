@@ -69,10 +69,22 @@
   }
 
   .col {
-    padding: 2rem 3rem;
+    padding: 2rem 2.5rem;
 
     &.kfm_preview {
-      padding: 0;
+      width: 100%;
+
+      img {
+        width: 120%;
+      }
+    }
+
+    &.right_border {
+      border-right: 1px solid #eaeaea;
+    }
+
+    &.bottom_border {
+      border-bottom: 1px solid #eaeaea;
     }
   }
 }
