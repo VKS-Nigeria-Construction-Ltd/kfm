@@ -53,21 +53,6 @@
   padding-top: 6rem;
   padding-bottom: 10rem;
 
-  .main-head {
-    font-size: 1.35rem;
-    line-height: 1.5rem;
-  }
-
-  .sub-head {
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-
-  .primary-head {
-    font-size: 2.5rem;
-    font-weight: 500;
-  }
-
   .col {
     padding: 1rem;
     
@@ -82,21 +67,101 @@
         width: 120%;
       }
     }
+  }
+}
 
-    &.right_border {
-      border-right: 0;
+.right_border {
+  border-right: 0;
 
-      @media (min-width: 768px) {
-        border-right: 1px solid #eaeaea !important;
+  @media (min-width: 768px) {
+    border-right: 1px solid #eaeaea !important;
+  }
+}
+
+.bottom_border {
+  border-right: 0;
+
+  @media (min-width: 768px) {
+    border-bottom: 1px solid #eaeaea;
+  }
+}
+
+.main-head {
+  font-size: 1.35rem;
+  line-height: 1.5rem;
+}
+
+.sub-head {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.primary-head {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.about-section {
+  background-color: #f8f8f8;
+  padding: 5.5rem 0;
+  
+}
+
+.flourmill_bag {
+  position: relative;
+
+  .bag_container {
+    margin-top: 0;
+
+    img {
+      margin-top: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .bag_container {
+      position: absolute; 
+      border-left: 1.5rem solid #c3002f;
+      border-bottom: 1.5rem solid #c3002f;
+      height: 100%;
+      margin-top: -9rem;
+  
+      img {
+        margin-top: -5.3rem;
+        width: 100%; 
+        height: 500px; 
+        object-fit: fill;
       }
     }
+  }
+}
 
-    &.bottom_border {
-      border-right: 0;
+.about-btm {
 
-      @media (min-width: 768px) {
-        border-bottom: 1px solid #eaeaea;
-      }
+  &__item {
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.5rem;
+    border-radius: 3px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     }
+
+    .img-box {
+      transition: all 0.4s ease-in-out;
+      overflow: hidden;
+    }
+
+    img {
+      transition: all 0.4s ease-in-out;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
   }
 }

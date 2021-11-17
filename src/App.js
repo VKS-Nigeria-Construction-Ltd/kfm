@@ -1,4 +1,5 @@
 import './App.scss';
+import { AboutSection } from './components/aboutSection.component';
 import { Mainsection } from './components/mainSection.component';
 import { HeaderContainer } from './container/header.container';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <HeaderContainer />
       <Mainsection />
+      <AboutSection />
     </div>
   );
 }
