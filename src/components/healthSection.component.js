@@ -8,8 +8,8 @@ export function HealthSection() {
     return (
         <div className="health-section">
                 <Row>
-                <Col className="col-7"></Col>
-                <Col className="col-5 health-section__red">
+                <Col className="col-12 col-md-7"></Col>
+                <Col className="col-12 col-md-5 health-section__red">
                     <Container>
 
                     <h2 className="main-head mt-4">KFM is a key player in the</h2>
@@ -18,8 +18,8 @@ export function HealthSection() {
                 </Col>
                 </Row>
                 <Row>
-                <Col className="col-4"></Col>
-                <Col className="col-8 health-section__dark">
+                <Col className="col-12 col-md-4"></Col>
+                <Col className="col-12 col-md-8 health-section__dark">
                     <Container>
 
                     <h4 className="text-uppercase kfm_red">Measurements</h4>
