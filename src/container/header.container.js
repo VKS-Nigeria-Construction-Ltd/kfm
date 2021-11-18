@@ -6,8 +6,8 @@ export function HeaderContainer() {
 
     return (
         <>
+        <div className="top_bar"></div>
         <MainNav />
-        {/* TODO: Fix slide text on mobile */}
         <Slider />
         <div className="top_bar sm"></div>  
         </>

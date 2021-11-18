@@ -11,7 +11,6 @@ const MainNav = () => {
 
     return (
         <>
-        <div className="top_bar"></div>
         <Container className='mainNav'>
           <Navbar
         collapseOnSelect
@@ -33,10 +32,10 @@ const MainNav = () => {
 
             <Nav className="mr-auto align-items-lg-center text-uppercase main-menu">
               <NavLink to="/" className="nav-link" role="button">Home</NavLink>
-              <NavLink to="/" className="nav-link" role="button">About Us</NavLink>
-              <NavLink to="/" className="nav-link" role="button">Services</NavLink>
-              <NavLink to="/" className="nav-link" role="button">News</NavLink>
-              <NavLink to="/" className="nav-link" role="button">Contact Us</NavLink>
+              <NavLink to="/about" className="nav-link" role="button">About Us</NavLink>
+              <NavLink to="/services" className="nav-link" role="button">Services</NavLink>
+              <NavLink to="/news" className="nav-link" role="button">News</NavLink>
+              <NavLink to="/contact" className="nav-link" role="button">Contact Us</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
