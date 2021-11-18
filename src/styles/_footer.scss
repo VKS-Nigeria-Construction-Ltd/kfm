@@ -1,0 +1,33 @@
+.footer {
+    padding: 3rem 0;
+    background-color: #0c0430;
+    color: #fff;
+  
+    .footer-logo{
+      text-align: center;
+      margin-bottom: 1rem;
+  
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+  
+      img {
+        width: 8rem;
+      }
+    }
+  
+    .social-links {
+      justify-content: center;
+  
+      @media (min-width: 768px) {
+        justify-content: end;
+      }
+    }
+  }
+  
+  .copyright-section {
+    background-color: #08031f;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+  }

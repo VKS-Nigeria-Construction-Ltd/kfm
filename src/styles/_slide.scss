@@ -1,0 +1,12 @@
+.home-slider {
+    margin-top: 0;
+  
+    @media (min-width: 768px) {
+      margin-top: -3rem;
+    }
+  }
+  
+  .carousel-caption {
+    bottom: 30%;
+  }
+  

@@ -1,0 +1,20 @@
+.main-section {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+  
+    .col {
+      padding: 1rem;
+      
+      @media (min-width: 768px) {
+        padding: 2rem 2.5rem;
+      }
+  
+      &.kfm_preview {
+        width: 100%;
+  
+        img {
+          width: 120%;
+        }
+      }
+    }
+  }

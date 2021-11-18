@@ -1,0 +1,71 @@
+.about-section {
+    background-color: #f8f8f8;
+    padding: 5.5rem 0;
+    
+  }
+  
+  .flourmill_bag {
+    position: relative;
+  
+    .bag_container {
+      margin-top: 0;
+  
+      img {
+        margin-top: 0;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .bag_container {
+        position: absolute; 
+        border-left: 1.5rem solid #c3002f;
+        border-bottom: 1.5rem solid #c3002f;
+        height: 100%;
+        margin-top: -9rem;
+    
+        img {
+          margin-top: -5.3rem;
+          width: 100%; 
+          height: 500px; 
+          object-fit: fill;
+        }
+      }
+    }
+  }
+  
+  .about-btm {
+    margin-bottom: -20rem;
+  
+    .col-12 {
+      margin-bottom: .5rem;
+      margin-top: .5rem;
+    }
+  
+    &__item {
+      background-color: #fff;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      padding: 1.5rem;
+      border-radius: 3px;
+      transition: all 0.4s ease-in-out;
+  
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      }
+  
+      .img-box {
+        transition: all 0.4s ease-in-out;
+        overflow: hidden;
+      }
+  
+      img {
+        transition: all 0.4s ease-in-out;
+      }
+  
+      &:hover img {
+        transform: scale(1.1);
+      }
+  
+    }
+  }
+  

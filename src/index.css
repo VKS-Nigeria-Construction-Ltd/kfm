@@ -32,3 +32,18 @@ h2 {
   line-height: 64px;
   color: #222d35;
 }
+
+.main-head {
+  font-size: 1.35rem;
+  line-height: 1.5rem;
+}
+
+.sub-head {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.primary-head {
+  font-size: 2.5rem;
+  font-weight: 500;
+}

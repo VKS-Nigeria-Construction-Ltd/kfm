@@ -1,0 +1,24 @@
+.mainNav {
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    position: relative;
+    z-index: 1000;
+    
+    @media (min-width: 768px) {
+      margin-top: -2.75rem;
+    }
+  
+    .navbar-main {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  
+    }
+  }
+  
+  .main-menu .nav-link {
+    font-weight: 500;
+  
+    &:hover {
+      color: #c3002f !important;
+    }
+  }

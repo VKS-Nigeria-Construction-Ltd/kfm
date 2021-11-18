@@ -1,0 +1,36 @@
+.health-section {
+    width: 100%;
+    line-height: 2rem;
+    background: url('/images/plant_bg.jpg') no-repeat bottom left;
+    background-size: cover;
+  
+    &__red {
+      background-color: #c3002f;
+      padding: 1rem .8rem;
+  
+      .primary-head {
+        font-size: 2rem;
+      }
+  
+      @media (min-width: 768px) {
+        padding: 2rem 7rem 2rem 1.5rem;
+      }
+    }
+  
+    &__dark {
+      background-color: #222d35;
+      padding: 3rem .8rem;
+  
+      @media (min-width: 768px) {
+        padding: 4rem 8rem 2.5rem 1.5rem;
+      }
+    }
+  
+    .main-head, .primary-head, .sub-head {
+      color: #fff;
+    }
+  
+    p {
+      color: #fafafa;
+    }
+  }

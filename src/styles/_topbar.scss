@@ -1,0 +1,13 @@
+.top_bar {
+    height: 5.5rem;
+    background-image: linear-gradient(90deg, #c3002f 60%, #f3f3f3 40%);
+    display: none;
+  
+    &.sm {
+      height: 2rem;
+    }
+  
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
