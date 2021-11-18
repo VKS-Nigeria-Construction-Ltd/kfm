@@ -8,12 +8,26 @@
       @media (min-width: 768px) {
         padding: 2rem 2.5rem;
       }
+
+      &.we-believe, &.kfm_preview {
+        background-color: #eeeeee;
+      }
   
       &.kfm_preview {
         width: 100%;
-  
+
         img {
           width: 120%;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          border: 10px groove #eeeeee5e;
+          opacity: 0.8;
+          transition: all 0.4s ease-in-out;
+
+          &:hover {
+            transform: scale(1.1) translateY(-10px);
+            border: 2px groove #eeeeeead;
+            opacity: 1;
+          }
         }
       }
     }

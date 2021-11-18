@@ -7,7 +7,7 @@ export function Mainsection() {
     return (
       <Container className="main-section">
           <Row>
-            <Col className="col-12 col-md-4">
+            <Col className="col-12 col-md-4 we-believe">
                 <h4 className="text-uppercase kfm_red sub-head">KINGS FLOUR MILL</h4>
                 <h2 className="primary-head">What we <strong>Believe</strong></h2>
                 <p>We believe that Premium quality flour should be available to everyone for both industrial and domestic consumption nationwide and beyond.</p>
