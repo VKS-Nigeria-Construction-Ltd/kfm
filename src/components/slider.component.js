@@ -21,7 +21,7 @@ export default function Slider() {
         />
         <Carousel.Caption>
           <h6 className="text-uppercase">Welcome to Kings Flour Mill</h6>
-          <h1><strong>Production</strong> Driven By Innovation</h1>
+          <h1 className="primary-head"><span>Production</span> Driven By Innovation</h1>
           <p>Our production processes are purely driven by state of the  art technology <br />
           and innovative industrial manufacturing solutions</p>
         </Carousel.Caption>
@@ -35,7 +35,7 @@ export default function Slider() {
 
         <Carousel.Caption>
           <h6 className="text-uppercase">Major Manufacturer</h6>
-          <h1><strong>Capacity</strong> of <strong>500</strong> Metric <br/> Tons per day</h1>
+          <h1 className="primary-head"><span>Capacity</span> of <span>500</span> Metric <br/> Tons per day</h1>
           <p>We have the capacity and technical know-how to mill varying grades of premium wheat based flour</p>
         </Carousel.Caption>
       </Carousel.Item>

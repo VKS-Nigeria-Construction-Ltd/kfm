@@ -4,9 +4,47 @@
     @media (min-width: 768px) {
       margin-top: -3rem;
     }
-  }
+}
   
-  .carousel-caption {
-    bottom: 30%;
+.carousel-caption {
+  bottom: 30%;
+
+  h1 {
+    font-weight: 100;
+    font-size: 4rem;
+
+    span {
+      font-weight: 500;
+    }
   }
+
+  p {
+    color: #fafafa;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  h6 {
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 8px;
+      width: 60px;
+      height: 2px;
+      background-color: red;
+    }
+    
+    &::before {
+      left: 19rem;
+    }
+
+    &::after {
+      right: 19rem;
+    }
+  }
+}
   
