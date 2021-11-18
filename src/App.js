@@ -4,6 +4,7 @@ import { HealthSection } from './components/healthSection.component';
 import { Mainsection } from './components/mainSection.component';
 import { HeaderContainer } from './container/header.container';
 import Footer from './components/footer.component';
+import { Copyright } from './components/copyright.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="extra_space"></div>
       <HealthSection />
       <Footer />
+      <Copyright />
     </div>
   );
 }
