@@ -7,11 +7,19 @@
 }
   
 .carousel-caption {
-  bottom: 30%;
+  bottom: 5%;
+
+  @media (min-width: 850px) {
+    bottom: 30%;
+  }
 
   h1 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 1.3rem;
+
+    @media (min-width: 600px) {
+      font-size: 3rem;
+    }
 
     span {
       font-weight: 500;
@@ -20,30 +28,34 @@
 
   p {
     color: #fafafa;
-    font-size: 1.2rem;
+    font-size: .8rem;
     text-align: center;
+
+    @media (min-width: 600px) {
+      font-size: 1.2rem;
+    }
   }
 
   h6 {
     position: relative;
+    font-size: .8rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.2rem;
+    }
 
     &::before,
     &::after {
       content: "";
-      display: block;
       position: absolute;
       top: 8px;
-      width: 60px;
+      width: 50px;
       height: 2px;
       background-color: red;
     }
     
     &::before {
-      left: 19rem;
-    }
-
-    &::after {
-      right: 19rem;
+      margin-left: -3.8rem;
     }
   }
 }
