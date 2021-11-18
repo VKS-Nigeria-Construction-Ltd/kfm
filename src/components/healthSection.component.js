@@ -7,7 +7,7 @@ export function HealthSection() {
 
     return (
         <div className="health-section">
-                <Row>
+                <Row style={{"margin-right": '0'}}>
                 <Col className="col-12 col-md-7"></Col>
                 <Col className="col-12 col-md-5 health-section__red">
                     <Container>
@@ -17,7 +17,7 @@ export function HealthSection() {
                     </Container>
                 </Col>
                 </Row>
-                <Row>
+                <Row style={{"margin-right": '0'}}>
                 <Col className="col-12 col-md-4"></Col>
                 <Col className="col-12 col-md-8 health-section__dark">
                     <Container>
