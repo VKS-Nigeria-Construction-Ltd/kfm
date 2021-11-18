@@ -25,3 +25,29 @@
 .extra_space {
   height: 20rem;
 }
+
+.animate_feature {
+  &, a, svg {
+    transition: all 0.5s ease-in-out;
+  }
+
+  a {
+    opacity: 0;
+  }
+
+  svg {
+    opacity: 1;
+  }
+
+  &:hover {
+    transform: translateY(-40px);
+
+    a {
+      opacity: 1;
+    }
+
+    svg {
+      opacity: 0;
+    }
+  }
+}
