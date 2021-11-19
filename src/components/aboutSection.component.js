@@ -44,7 +44,7 @@ export function AboutSection() {
                </Col>
                <Col className="col-12 col-md-6 flourmill_bag mb-2">
                    <div className="bag_container">
-                        <img src={flourmillBag} alt="flourmill bag" className="img-fluid" />
+                        <img src={flourmillBag} alt="flourmill bag" className="img-fluid about-img" />
                    </div>
                </Col>
            </Row>
