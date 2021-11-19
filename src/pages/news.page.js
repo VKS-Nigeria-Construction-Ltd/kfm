@@ -1,7 +1,11 @@
 import { Container } from 'react-bootstrap';
-import { Pageheader } from '../container/pageHeader.container'
+import { Pageheader } from '../container/pageHeader.container';
+import { Helmet } from 'react-helmet';
 
 export function NewsPage() {
+    <Helmet>
+      <title>News | KINGS FLOUR MILL – HAPPINESS BEGINS NOW</title>
+    </Helmet>
     
     return (
         <>

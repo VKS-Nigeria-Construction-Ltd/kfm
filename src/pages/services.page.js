@@ -2,9 +2,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Pageheader } from '../container/pageHeader.container';
 import kfmTruck from '../images/kfm_truck.jpg';
 import kfmWork from '../images/kfm_work.jpg';
+import {Helmet} from "react-helmet";
 
 export function ServicesPage() {
-    
+    <Helmet>
+        <title>Services | KINGS FLOUR MILL – HAPPINESS BEGINS NOW</title>
+    </Helmet>
 
     return (
         <>

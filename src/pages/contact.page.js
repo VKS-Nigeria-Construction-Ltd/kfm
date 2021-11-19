@@ -1,9 +1,12 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { Pageheader } from '../container/pageHeader.container'
 import { FaMapMarkerAlt, FaRegEnvelope } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 export function ContactPage() {
-    
+    <Helmet>
+      <title>Contact | KINGS FLOUR MILL – HAPPINESS BEGINS NOW</title>
+    </Helmet>
     return (
         <>
          <Pageheader title="Contact Us" />

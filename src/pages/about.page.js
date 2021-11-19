@@ -1,9 +1,12 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { Pageheader } from '../container/pageHeader.container';
 import kfmPreview from '../images/kfm_preview.jpg';
+import {Helmet} from "react-helmet";
 
 export function AboutPage() {
-    
+    <Helmet>
+       <title>About | KINGS FLOUR MILL – HAPPINESS BEGINS NOW</title>
+    </Helmet>
 
     return (
         <>
