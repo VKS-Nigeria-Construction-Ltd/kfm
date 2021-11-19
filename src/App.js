@@ -1,6 +1,5 @@
 import './App.scss';
-import Switch from 'react-bootstrap/esm/Switch';
-import { Route } from 'react-router';
+import { Switch, Route, Redirect } from "react-router-dom";
 import { HomePage } from './pages/home.page';
 import { AboutPage } from './pages/about.page';
 import { ServicesPage } from './pages/services.page';
@@ -18,6 +17,7 @@ function App() {
         <Route exact path="/services" component={ServicesPage} />
         <Route exact path="/news" component={NewsPage} />
         <Route exact path="/contact" component={ContactPage} />
+        <Route path="*" render={() => <Redirect to="/" />} />
       </Switch>
       <Footer />
       <Copyright />
