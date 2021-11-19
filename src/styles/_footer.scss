@@ -18,6 +18,14 @@
   
     .social-links {
       justify-content: center;
+
+      a {
+        transition: all 0.3s ease-in-out;
+        
+        &:hover svg {
+          fill: #c3002f;;
+        }
+      }
   
       @media (min-width: 768px) {
         justify-content: end;
