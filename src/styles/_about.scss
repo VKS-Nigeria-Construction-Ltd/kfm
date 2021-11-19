@@ -35,6 +35,10 @@
   
   .about-btm {
     margin-bottom: -20rem;
+
+    &.service-page {
+      margin-bottom: 0;
+    }
   
     .col-12 {
       margin-bottom: .5rem;
