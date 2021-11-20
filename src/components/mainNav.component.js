@@ -31,11 +31,11 @@ const MainNav = () => {
             </Nav>
 
             <Nav className="mr-auto align-items-lg-center text-uppercase main-menu">
-              <NavLink to="/" className="nav-link" role="button">Home</NavLink>
-              <NavLink to="/about" className="nav-link" role="button">About Us</NavLink>
-              <NavLink to="/services" className="nav-link" role="button">Services</NavLink>
-              <NavLink to="/news" className="nav-link" role="button">News</NavLink>
-              <NavLink to="/contact" className="nav-link" role="button">Contact Us</NavLink>
+              <NavLink to="/" className="nav-link underline_hover" role="button">Home</NavLink>
+              <NavLink to="/about" className="nav-link underline_hover" role="button">About Us</NavLink>
+              <NavLink to="/services" className="nav-link underline_hover" role="button">Services</NavLink>
+              <NavLink to="/news" className="nav-link underline_hover" role="button">News</NavLink>
+              <NavLink to="/contact" className="nav-link underline_hover" role="button">Contact Us</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

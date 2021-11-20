@@ -1,6 +1,7 @@
 @import './styles/topbar';
 @import './styles/nav';
 @import './styles/slide';
+@import './styles/animations';
 @import './styles/main';
 @import './styles/about';
 @import './styles/health';
@@ -79,5 +80,26 @@
   &:hover {
     transform: translateY(-10px);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+}
+
+.underline_hover {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #c3002f;
+    transform: scale(0, 1);
+    // transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: scale(1, 1);
   }
 }
