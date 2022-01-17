@@ -1,6 +1,9 @@
 import { Container } from 'react-bootstrap';
 import { Pageheader } from '../container/pageHeader.container';
 import { Helmet } from 'react-helmet';
+import { Interview } from '../news/interview';
+import { VksContributions } from '../news/vks-contributions';
+import { AkpabioVisit } from '../news/akapbio';
 
 export function NewsPage() {
     <Helmet>
@@ -11,8 +14,9 @@ export function NewsPage() {
         <>
          <Pageheader title="News" />
          <Container className="mt-4 mb-5">
-            <h1>Latest News</h1>
-            <p>No news at the moment</p>
+            <Interview />
+            <AkpabioVisit />
+            <VksContributions />
          </Container>
          </>
     )
